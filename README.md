@@ -4,6 +4,12 @@
 
 This package contains code to carry out the value iteration algorithm for computing the optimal policy for an MDP and the asscoiated value. This package contains the python script with the value iteration function. It additioanlly conatins two examples, in the form of jupyter notebook files where each example is laid out and solved. Finally, there are also a few unit tests.
 
+## How to Use the Package
+
+To install the package using the unix console type:
+
+python -m pip install 'git+https://github.com/jstrong12/STOR609_CW2'
+
 ## The Value Iteration Algorithm
 
 ### Input
