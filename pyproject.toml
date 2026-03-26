@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Value Iteration"
+version = "1.0.0"
+maintainers = [
+  { name="Jack Strong", email="strongj2@lancaster.ac.uk" },
+]
+authors = [
+  { name="Jack Strong", email="strongj2@lancaster.ac.uk"},
+]
+description = "Conatains function to carry out the value iteration algorithm as specified by the pseudocode in the README file"
+requires-python = ">=3.13.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pytest"
+]
+
+[project.urls]
+homepage = "https://github.com/jstrong12/STOR609_CW2"
